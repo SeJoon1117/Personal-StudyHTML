@@ -1,6 +1,6 @@
 태그
 <> --- </> 기본적인 구조
-<!DOCTYOE html>
+<!DOCTYPE html>
 <html> --- </html> HTML 문서의 루트 요소 (처음과 끝에 표기)
 <head> --- </head> 문서의 메타 데이터를 포함
 <title> --- </title> 웹 페이지의 제목을 정의
