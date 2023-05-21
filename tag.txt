@@ -20,3 +20,28 @@
 <br> 다음 줄로 이동하는 태그
 <img src="파일명.파일형식" width=수1 height=수2> 가로 수1, 높이 수2인 이미지를 부르기 
 <img src="파일명.파일형식" width=수1 height=수2 alt="x"> 이미지가 깨져서 이미지를 보여줄 수 없을 때 "x"라고 표기
+
+<table border="수"> --- </table> 수가 크면 클수록 표 선이 두꺼워짐 (표 처음과 끝에 적으면 됌)
+<tr> --- </tr> 한 행을 하나로 묶음
+<thead> --- </thead> table 안에 어느 위치에 적든 맨 위로 올라감
+<th> --- </th> 열의 맨 윗 부분 (진해짐)
+<tbody> --- </tbody> table 안에 어느 위치에 적든 중간으로 감
+<td> --- </td> 하나하나를 행이라고 만듬
+<tfoot> --- </tfoot> table 안에 어느 위치에 적든 맨 아래로 내려감
+<td rowspan="수"> 위 아래로 수 만큼 합치기
+<td colspan="수"> 양 옆으로 수 만큼 합치기
+
+<form action="서버 주소"> --- </form> 안에 있는 데이터를 서버주소로 데이터를 보냄
+<input type="text"> 틀을 만들어줌
+<input type="password"> 입력 값을 *로 표시되게 만듬
+<input type="text" name="이름"> 틀을 중복해서 만들었을 경우, 입력 값을 "이름"에 저장
+<input type="submit"> 제출이라는 표시가 뜨고, 누를 시 서버주소로 데이터를 보냄
+<input value="기본 값"> 처음 열었을때, 비어 있는 틀을 "기본값"으로 지정해줌
+
+<textarea> --- </textarea> 여러 줄을 입력 할 수 있는 틀을 만들어줌, 사이 입력 값은 기본 값
+<textarea cols="수"> 수 만큼의 글자가 들어갈 수 있는 폭이 커짐
+<textarea rows="수"> 수 만큼의 글자가 들어갈 수 있는 줄이 생김
+
+<select name="이름"> --- </select> 입력 값을 "이름"에 저장
+<select name="이름" multiple> --- </select> 사용자가 입력을 여러 개 할 수 있도록 해줌
+	<option vaule="보낼 값"> --- </option> ---을 선택하면 "보낼 값"을 컴퓨터에 보냄
